@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Implementation
 
+To use "**Visual scripting**" package you have to use the graph editor:
+
 - Click "**Edit Graph**" on the "**Script Machine**" component to open the **Graph editor** and start editing the nodes on the graph to obtain the desired behavior
 
 	![VisualScripting](/img/visualscripting_3.png)
