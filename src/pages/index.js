@@ -12,17 +12,18 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <div className= {styles.title}> <img className={styles.image} src="./img/LOGO_REFLECTIS_White.png" />
           {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        </div>
+        <p className= {styles.subtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Creator Kit
+            to="https://www.anothereality.io/en/technology/">
+            Know more
           </Link>
-        </div>
+         </div>
+         <p class="mb-0 mt-5 pt-5 small" >Powered by <a href="https://www.anothereality.io/">AnotheReality</a></p>
       </div>
     </header>
   );
@@ -32,12 +33,9 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }

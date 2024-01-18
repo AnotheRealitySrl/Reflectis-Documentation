@@ -6,8 +6,13 @@
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  font-family: 'Poppins';
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  position: fixed;
+  background: #1e1e1e url("/img/bg.jpg") no-repeat center center;
+
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +25,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.title {
+    font-size: 90px;
+    margin: 0 0 -17px 0;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 30px;
+    align-items: center;
+}
+
+.image {
+   width: 100px;
+   height:100px;
+   margin: 0 13px -17px 0;
 }
