@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\css",
-    "\\src\\pages",
+    "\\src\\webfontkit",
     "\\static",
     "\\static\\img"
   ],
-  "SelectedNode": "\\sidebars.js",
+  "SelectedNode": "\\static\\img\\LOGO_REFLECTIS_Black.png",
   "PreviewInSolutionExplorer": false
 }

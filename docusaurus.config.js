@@ -61,16 +61,16 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /* @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/LOGO_REFLECTIS_White.png',
       navbar: {
         title: 'Reflectis',
-        style: 'dark',
         logo: {
           alt: 'Reflectis Logo',
-          src: 'img/LOGO_REFLECTIS_White.png',
+          src: 'img/LOGO_REFLECTIS_Black.png',
+          srcDark: 'img/LOGO_REFLECTIS_White.png'
         },
         items: [
           {
