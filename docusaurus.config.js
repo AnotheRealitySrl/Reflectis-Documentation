@@ -75,9 +75,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'creatorkitSidebar',
             position: 'left',
             label: 'Creator Kit',
+          },
+           {
+            type: 'docSidebar',
+            sidebarId: 'boSidebar',
+            position: 'left',
+            label: 'Backoffice',
           },
           {
             href: 'https://github.com/AnotheRealitySrl/Reflectis-SDK-CreatorKit',

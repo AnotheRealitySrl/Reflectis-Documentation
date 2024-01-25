@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\webfontkit",
-    "\\static",
-    "\\static\\img"
+    "\\docs",
+    "\\docs\\Backoffice",
+    "\\docs\\Backoffice\\Sezione1",
+    "\\docs\\CK\\creatorkitcomponents",
+    "\\docs\\CK\\creatorkitcomponents\\listofcomponents",
+    "\\static"
   ],
-  "SelectedNode": "\\static\\img\\LOGO_REFLECTIS_Black.png",
   "PreviewInSolutionExplorer": false
 }
