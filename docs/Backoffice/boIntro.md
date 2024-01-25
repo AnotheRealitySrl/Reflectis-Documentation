@@ -2,26 +2,11 @@
 sidebar_position: 1
 ---
 
-# Backoffice
+# Introduction
 
-Let's discover **Reflectis Creator Kit**, the suitable tool for creating metaverses in the future. 
+The Back Office is a platform that enables specific users to oversee and control the resources and activities in which other users will participate.
+Typically, the individuals with access to this platform hold managerial positions or have ownership rights over the application.
 
-The obvious choice **for a developer** who wants to build a virtual social world and host it on his own space coding his own interactions, because it will be so quick to jumpstart the development thanks to already made features and available services & infrastructure.
+Access to the site is restricted to the use of an official Animator's or Owner's account for logging in. Registration for the site is to be overseen internally by the highest authority. Within the Back Office site, authorized users will discover various sections dedicated to the management of distinct aspects of the application.
 
-## What's it?
-**Reflectis Creator Kit** is a library of interactive prefabs and individual scripts that define various behaviors and interactions within Reflectis environments.
-
-Additionally, several **drag-and-drop components** are present in the scene and ready for use: *Big screen*, *Whiteboard Surface*, *Teleport*, *Scene Changer*, *Private Voice Area*, *User List*, and so on.
-
-However, before using them, it's necessary to **set up the project, set up the scene,** and **install and set up the addressable system** to receive the Creator Kit and all its functionalities.
-
-Remember that the platform allows for the creation of **VR and WebGL** experiences, enabling both systems to coexist.
-
-
-You can navigate this documentation using the **sidebar on the left**. Some categories have **sub-pages**, which you can expand by clicking on them.
-
-- Are you a new creator? Read [Getting Started](gettingstarted/prerequisites)!
-- Looking for ready-to-use components? Explore our list of [drag-and-drop components](creatorkitcomponents/How-to-add-a-component).
-- Do you want to use Visual Scripting? Check out our custom nodes of [Visual Scripting](visualscripting/configuration).
-
-_Enjoy envisioning new possible worlds and interactions for the different player bases at your disposal!_
+New users are initially assigned the USER role, which comes with basic permissions and serves as the standard role for newly registered users. The ADMIN role is typically granted to the owner, enabling them with permissions to oversee all aspects of the back office.

@@ -1,0 +1,8 @@
+{
+    "label": "Create Events",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "To initiate the process, users are required to select the reddish button labeled '+ New Event', situated at the top right corner of the screen. This action will prompt the opening of a new series of windows.. IMAGE HERE  "
+    }
+}
