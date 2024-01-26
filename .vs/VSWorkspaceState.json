@@ -1,11 +1,16 @@
 {
   "ExpandedNodes": [
+    "",
     "\\docs",
     "\\docs\\Backoffice",
-    "\\docs\\Backoffice\\Sezione1",
+    "\\docs\\Backoffice\\Events",
+    "\\docs\\Backoffice\\Events\\CreateEvents",
+    "\\docs\\CK",
     "\\docs\\CK\\creatorkitcomponents",
     "\\docs\\CK\\creatorkitcomponents\\listofcomponents",
-    "\\static"
+    "\\docs\\CK\\gettingstarted",
+    "\\docs\\CK\\gettingstarted\\publishandtest"
   ],
+  "SelectedNode": "\\docs\\Backoffice\\Events\\CreateEvents\\Files Page.md",
   "PreviewInSolutionExplorer": false
 }
