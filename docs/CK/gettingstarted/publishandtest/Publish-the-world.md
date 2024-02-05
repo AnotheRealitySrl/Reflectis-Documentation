@@ -51,6 +51,6 @@ The steps to upload an environment are as follows:
 	Only environments that have a **static** event associated with it can be referenced to the **scene changer** teleports, that can be placed in the lobby. 
 	:::
 
-	For more info about [Scene Changer](/docs/creatorkitcomponents/listofcomponents/SceneChanger), see here.
+	For more info about [Scene Changer](/docs/CK/creatorkitcomponents/listofcomponents/SceneChanger), see here.
 
 Once published, it's time to [test the new environment](Test-the-world)!
