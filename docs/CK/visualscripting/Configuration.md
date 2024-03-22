@@ -29,3 +29,23 @@ If you want to learn more about how visual scripting works and is used, here are
 	In this case, you will have to **save the new graph** in a folder among the project assets.
 
 Moreover, you can easily convert an embed graph to a shared one by clicking on the "**Convert**" button.
+
+## How to network a behavior
+
+The Node "**Convert Action**" is essential for being able **to network a behavior**. This node doesn’t exist from the beginning and needs to be inserted into the Unity visual scripting Library, before becoming usable.
+
+Go to *Reflectis* and click on *Setup Visual Scripting Nodes*.
+
+	![VisualScripting](/img/visualscripting_5.png)
+
+From this point on it’s possible to call the method "**Action Invoke**" as a usable node on the Graph Editor.
+
+![VisualScripting](/img/visualscripting_8.png)
+
+All the events referenced in the Event Name string space will be **networked**.
+
+:::danger[Warning]
+The method "**Action Invoke**" of referenced events must have **0 arguments**, or it will result in a compiling error.
+:::
+
+From this point forward the custom event can be **customized freely** to obtain a special behavior not present in the Creator Kit.
