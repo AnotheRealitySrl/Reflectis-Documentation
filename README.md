@@ -86,3 +86,15 @@ This command generates **static content** into the `build` directory and can be 
 Finally, you can use **FileZilla**, with website credentials, to upload the content of `build` directory.
 
 **Note: Remember to push changes to Git once completed!**
+
+## Versioning
+Should you want to **store the current version** of the documentation and move to the next one, you need to type this command:
+```
+$ npm run docusaurus docs:version 20XX.Y
+```
+The structure of the Reflectis changelog to follow is: **20XX.Y** (XX is the year, Y is the month).
+
+Then, automatically, Docusaurus will create a new folder in `versioned_docs/version-[versionName]/`.
+![image](https://github.com/AnotheRealitySrl/Reflectis-Documentation/assets/11877743/8648a50c-7d1f-4975-a2a6-d18d27437746)
+
+So if you want to **change the contents** of the previous version, you have to access the related folder of the version.
