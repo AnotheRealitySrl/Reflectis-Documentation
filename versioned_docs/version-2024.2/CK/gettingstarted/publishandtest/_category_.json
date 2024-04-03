@@ -1,0 +1,8 @@
+{
+  "label": "Publish & Test",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Let's publish the created world and test it!"
+  }
+}

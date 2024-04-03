@@ -41,6 +41,13 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          lastVersion: 'current',
+          versions: {
+            current: {
+                label: '2024.3',
+                path: '2024.3',
+            },
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -79,11 +86,16 @@ const config = {
             position: 'left',
             label: 'Creator Kit',
           },
-           {
+          {
             type: 'docSidebar',
             sidebarId: 'boSidebar',
             position: 'left',
             label: 'Backoffice',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: false,
           },
           {
             href: 'https://github.com/AnotheRealitySrl/Reflectis-SDK-CreatorKit',
