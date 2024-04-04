@@ -31,7 +31,7 @@ Finally, select the “**AddressableAssetData**” folder in the "Assets" folder
 
 ![AddressablesGroups](/img/addressablessetup_3.png)
 
-Set the Inspector of "**AddressableAssetSettings**" as follows:
+Set the inspector of "**AddressableAssetSettings**" as follows:
 
 ![AddressablesGroups](/img/addressablessetup_4.png)
 ![AddressablesGroups](/img/addressablessetup_5.png)
@@ -44,41 +44,13 @@ Don't use numbers or special characters in "**Player Version Override**" paramet
 
 ## Profiles configuration
 
-After the groups have been prepared, it's necessary to create the correct **Profiles**. 
-These contain the links where the objects marked as addressables are sent and built. To create a **new profile**, click on Profile: *Default → Manage Profiles* on the "**Addressable Groups**" panel.
+To configure the profiles of addressables, you have to click on "**Reflectis**" on the top bar and then click on "**Configure and build Addressables**".
 
-![AddressablesGroups](/img/addressablessetup_6.png)
+![BuildWorld](/img/buildworld_1_2.png)
 
-From the **Addressables profiles** panel click on: *Create → Profile* and rename it **"Sandbox"**. At the end there must be two profiles: **Default** and **Sandbox**.
+In the panel below, click on "**Configure remote build and load paths**" to fix the red crosses.
 
-![AddressablesGroups](/img/addressablessetup_7.png)
-
-Change the links in the "**Remote**" section.
-The links needed on “**Remote.BuildPath**” and “**Remote.LoadPath**” spaces will be given by the *Development Team*. 
-
-**Default**: This profile is usually used for the commits in the official releases (**Production**).
-
-**Sandbox**: This profile is used for the testing releases (**Sandbox**)
-
-Set the **Sandbox** and **Default** profiles as shown below:
-
-- **Sandbox profile**
-
-	>Remote.Buildpath: **ServerData/[BuildTarget]/Sandbox**
-
-	>Remote.Loadpath: **https://reflectisCOMPANYNAME-api-sandbox.anothereality.io/environments/download/[BuildTarget]/Sandbox**
-
-- **Default profile**
-
-	>Remote.Buildpath: **ServerData/[BuildTarget]/Production**
-
-	>Remote.Loadpath: **https://spacsglobal.blob.core.windows.net/reflectis-COMPANYNAME-public/[BuildTarget]/Production**
-
-:::danger[Warning]
-"**COMPANYNAME**" in the link must be changed to your company/team name.
-:::
-
-To change between profiles, right click on one and select “**Set Active**”.
+![AddressablesGroups](/img/addressablessetup_12.png)
 
 ## Convert scenes/images into addressables
 The basic addressables needed to upload an environment are as follows:

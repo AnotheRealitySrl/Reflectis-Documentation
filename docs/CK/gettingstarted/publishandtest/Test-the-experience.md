@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Test the world
+# Test the experience
 After publishing a scene, it’s time to **test it out**. 
 Creators can test the outcome of the different set up objects in the scene for the different platforms available (**VR and web**). 
 

@@ -2,7 +2,7 @@
 sidebar_position: 6 
 ---
 
-# Publish the world
+# Publish the experience
 
 When addressables have been compiled, they need to be published. The creator must use the **back office portal** to send specific data to the main server and allow the world to be selectable to be visited in an event. 
 :::tip[Note] 

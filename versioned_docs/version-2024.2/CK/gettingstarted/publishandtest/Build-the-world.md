@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Build the world
 When the scene is completed it needs to build the addressables.
-:::tip[Note] 
+:::warning[Danger] 
 	Remember to first correctly **configure addressables** [here](../startanewproject/Addressable-setup).
 :::
 

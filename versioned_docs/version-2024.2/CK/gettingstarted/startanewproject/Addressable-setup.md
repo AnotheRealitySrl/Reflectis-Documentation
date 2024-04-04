@@ -31,7 +31,7 @@ Finally, select the “**AddressableAssetData**” folder in the "Assets" folder
 
 ![AddressablesGroups](/img/addressablessetup_3.png)
 
-Set the Inspector of "**AddressableAssetSettings**" as follows:
+Set the inspector of "**AddressableAssetSettings**" as follows:
 
 ![AddressablesGroups](/img/addressablessetup_4.png)
 ![AddressablesGroups](/img/addressablessetup_5.png)
