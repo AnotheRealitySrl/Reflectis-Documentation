@@ -3,9 +3,10 @@ sidebar_position: 0
 ---
 
 # Configuration
-To implement visual scripting in the project you need to use the Unity "**Visual Scripting**" package, available from the package manager. 
 
-When downloaded, it allows you to use the **Script Machine** to open the graph editor and **start scripting**! 
+Use The Reflectis Creator Kit to bring your ideas to life, with the help of **Visual Scripting**!
+
+Use the Reflectis **nodes library** to have access to many different information and use them to create a **custom behaviour** for every element of each environment. 
 
 If you want to learn more about how visual scripting works and is used, here are some **Unity tutorials** to learn it:
 
@@ -15,6 +16,10 @@ If you want to learn more about how visual scripting works and is used, here are
 
 ## How to install it
 
+To implement **Visual Scripting** in a Reflectis project you need to use the Unity "**Visual Scripting**" package, available from the package manager. 
+When installed, it allows you to use the **Script Machine** to open the graph editor and **start scripting**.
+
+These are the steps to proceed:
 - Install the "**Visual scripting**" package from the Package Manager
 
 	![VisualScripting](/img/visualscripting_1.png)
@@ -30,22 +35,10 @@ If you want to learn more about how visual scripting works and is used, here are
 
 Moreover, you can easily convert an embed graph to a shared one by clicking on the "**Convert**" button.
 
-## How to network a behavior
+## How to setup Visual Scripting Nodes
 
-The Node "**Convert Action**" is essential for being able **to network a behavior**. This node doesn’t exist from the beginning and needs to be inserted into the Unity visual scripting Library, before becoming usable.
+Before using the nodes you have to go to "**Reflectis**" and then click on "**Setup Visual Scripting Nodes**”.
 
-Go to *Reflectis* and click on *Setup Visual Scripting Nodes*.
+This will allow the Unity project to include the **nodes** in the graphs as well as to detect **VR inputs** from the VR controller mapping.
 
-	![VisualScripting](/img/visualscripting_5.png)
-
-From this point on it’s possible to call the method "**Action Invoke**" as a usable node on the Graph Editor.
-
-![VisualScripting](/img/visualscripting_8.png)
-
-All the events referenced in the Event Name string space will be **networked**.
-
-:::danger[Warning]
-The method "**Action Invoke**" of referenced events must have **0 arguments**, or it will result in a compiling error.
-:::
-
-From this point forward the custom event can be **customized freely** to obtain a special behavior not present in the Creator Kit.
+![VisualScripting](/img/visualscripting_5.png)

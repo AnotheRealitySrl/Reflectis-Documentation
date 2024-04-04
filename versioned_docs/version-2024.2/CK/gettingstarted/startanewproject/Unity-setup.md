@@ -46,8 +46,12 @@ If you install the modules **later**, you need to **build the addressables again
 8. Click on "**Create ASMDF**" on the DOTween Utility Panel and confirm the creation of the DOTween Modules
 9. **Import the packages** from these links into the scene using the package manager, selecting the "**Add package from git URL**" option:
 					
-	- https://github.com/AnotheRealitySrl/Reflectis-SDK.git#develop
-	- https://github.com/AnotheRealitySrl/Reflectis-SDK-CreatorKit.git#develop.
+	- https://github.com/AnotheRealitySrl/Reflectis-SDK.git#v4.0.0
+	- https://github.com/AnotheRealitySrl/Reflectis-SDK-CreatorKit.git#v2.0.0.
+
+:::danger[Warning]								
+	The Reflectis 2024.2 works **only** with packages v4.0.0 (SDK) and v2.0.0 (SDK-CreatorKit).
+:::
 
 Now the project has all the necessary packages to start using the **Reflectis SDK**. 
 **Import 3D elements** into the scene and **give them new logic**!
