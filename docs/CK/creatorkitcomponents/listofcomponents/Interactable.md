@@ -10,28 +10,23 @@ Script component to attach to an object to make it **interactable** and associat
 
 To configure the content shown in the **Interactable Placeholder**, you can manage it as follows:
 
-![ComponentList](/img/componentlist_12.png) 
+![interactable](/img/interactablePlaceholder.png) 
 
-- **Interaction Colliders** is a parameter in which you have to drag objects that you want to be **interactive** and be **triggered** according to the action performed on them.
+- **Interaction Colliders** is a parameter in which you have to drag objects that you want to be **interactive** and be **triggered** according to the scriptable actions on them.
 	
-	:::warning[Danger]	
+	:::danger[Warning]	
 	It's also important to include in the list the **object itself** into which the component has been attached, otherwise it will not work
 	:::
 
-- Interaction modes parameter is a **selectionable list** based on
-**Filter** parameter is a **selectionable list** based on what you want to display on the **Dashboard**:
+- **Interaction Modes** is a **selectionable list** based on the **type of behaviour** to be associated with the object, to be chosen from:
+	- *Everything*, any scripted action can be attached
+	- *Generic Interactable*, for actions such as **selection**, **interaction** and **hovering**
+	- *Manipulable*, for actions such as **translation**, **rotation** and **scale**
+	- *Contextual Menu Interactable*, for **additional features** in 3D objects or multimedia.
 
-- **Environment**, you need to pass, on the **Dashboard Name Filter** parameter, the name of the environment you want to display on it
+- **Interaction Script Machine** is a parameter where you have to reference the "Script maachine" relating to the object.
 
-- **Category**, you need to pass, on the **Dashboard Name Filter** parameter, the name of the category of events you want to display on it
 
-- **Tag & None**, currently not implemented their logic.
+Depending on the type of behaviour chosen in the **Interaction Modes**, one or more sections will appear in the Inspector, according to how many modes have been added.
 
-It's important to define the **Dashboard Name Filter** parameter, to show the elements based on what you chose in the **Filter** list.
-For instance, on the image below, we have passed the **Category** of events named "UnitTest".
-
-![ComponentList](/img/componentlist_13.png)
-
-:::tip[Note]
-In the Creator Kit, you can find the **EnvironmentalDashboardPlaceholder** as an example of a basic configuration of the dashboard working logic.
-:::
+Then you can add **scriptable actions** directly in the **Script Machine**, using Visual Scripting (for more info about this part, see the section [**Generic Interactable**](/docs/2024.3/CK/visualscripting/reflectisnodelist/eventnodes/Generic-interactable)).
