@@ -4,57 +4,64 @@ sidebar_position: 3
 
 # Flow Nodes
 
-These nodes contain the information of the object referenced in the node’s name.
+These nodes allow to trigger logic flows already contained in the Reflectis structure.
 
-## Get *CMUser* Node
+## Character *Enable Mesh* Node
 
-This Node contains the information about the **current player**.
+This Node manages the activation of the Player avatar’s mesh.
 
-:::tip[Note] 
-	Refer to the "**Expose CMUser**"(INSERIRE LINK) node to know which info you can access.
-:::
+![Nodes](/img/flow-nodes1.png)
 
-(INSERIRE IMG)
+## Character *Enable Movement* Node
 
-## Get *CMEvent* Node
+This Node manages the activation of the Player avatar’s movement control.
 
-This Node contains the information about the **current event**.
+![Nodes](/img/flow-nodes2.png)
 
-:::tip[Note] 
-	Refer to the "**Expose CMEvent**"(INSERIRE LINK) node to know which info you can access.
-:::
+## *Contextual Menu Manageable* Block Interaction By Selection Node
 
-(INSERIRE IMG)
+This Node manages the deactivation of the Contextual Menu component.
 
-## Get *CMEnvironment* Node
+![Nodes](/img/flow-nodes3.png)
 
-This Node contains the information about the **current environment**.
+## *Generic Interactable* Block Interaction By Selection Node
 
-:::tip[Note] 
-	Refer to the "**Expose CMEnvironment**"(INSERIRE LINK) node to know which info you can access.
-:::
+This Node manages the deactivation of the Generic Interactable component. 
 
-(INSERIRE IMG)
+![Nodes](/img/flow-nodes4.png)
 
-## Get *Manipulable* Node
+## *Manipulable* Block Interaction By Selection Node
 
-This Node is used to reference the **manipulable component** of the GameObject referenced in the input. 
+This Node manages the deactivation of the Manipulable component.
 
-(INSERIRE IMG)
+![Nodes](/img/flow-nodes5.png)
 
-## Get *Generic Interactable* Node
+## Character *Camera Pan* Node
 
-This Node is used to reference the **generic interactable component** of the GameObject indicated in the input. 
+This Node manages the camera pan of the Player camera to a given transform.
 
-(INSERIRE IMG)
+![Nodes](/img/flow-nodes6.png)
 
-## Get *Contextual Menu Interactable* Node
+## Character *Camera Exit Pan* Node
 
-This Node is used to reference the **Contextual Menu component** of the GameObject indicated in the input. 
+This Node manages the return of the Player camera from a camera pan back to navigation mode.
 
-(INSERIRE IMG)
+![Nodes](/img/flow-nodes7.png)
 
+## Character *Teleport* Node
 
-:::tip[Note] 
-	You can associate a "**Log Error**" output to each node. The output in the console will be a reference to the GameObject containing the desired information.
-:::
+This Node makes the Player move to a given location with a given rotation.
+
+![Nodes](/img/flow-nodes8.png)
+
+## *Platform Recognizer* Switch Node
+
+This Node allows to differentiate actions for the different platforms. 
+
+![Nodes](/img/flow-nodes9.png)
+
+## *Tutorial* Enable Node
+
+This Node allows to activate the tutorial panel.
+
+![Nodes](/img/flow-nodes10.png)

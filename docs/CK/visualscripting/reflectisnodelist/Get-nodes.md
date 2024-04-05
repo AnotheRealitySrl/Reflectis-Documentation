@@ -11,7 +11,7 @@ These nodes contain the information of the object referenced in the node’s nam
 This Node contains the information about the **current player**.
 
 :::tip[Note] 
-	Refer to the "**Expose CMUser**"(INSERIRE LINK) node to know which info you can access.
+	Refer to the ["**Expose CMUser**"](Expose-nodes.md##expose-cmuser-node) node to know which info you can access.
 :::
 
 ![Nodes](/img/get-nodes1.png)
@@ -21,7 +21,7 @@ This Node contains the information about the **current player**.
 This Node contains the information about the **current event**.
 
 :::tip[Note] 
-	Refer to the "**Expose CMEvent**"(INSERIRE LINK) node to know which info you can access.
+	Refer to the ["**Expose CMEvent**"](Expose-nodes.md##expose-cmevent-node) node to know which info you can access.
 :::
 
 ![Nodes](/img/get-nodes2.png)
@@ -31,7 +31,7 @@ This Node contains the information about the **current event**.
 This Node contains the information about the **current environment**.
 
 :::tip[Note] 
-	Refer to the "**Expose CMEnvironment**"(INSERIRE LINK) node to know which info you can access.
+	Refer to the ["**Expose CMEnvironment**"](Expose-nodes.md##expose-cmenvironment-node) node to know which info you can access.
 :::
 
 ![Nodes](/img/get-nodes3.png)

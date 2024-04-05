@@ -1,0 +1,8 @@
+{
+  "label": "Event Nodes",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "List of nodes that allow to associate to a specific interaction the triggering of actions or other nodes."
+  }
+}

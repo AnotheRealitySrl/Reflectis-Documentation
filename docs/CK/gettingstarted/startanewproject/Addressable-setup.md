@@ -8,35 +8,19 @@ If the project setup has been successful, the new project will already have the 
 Now we need to configure **addressables**, which will be used for uploading environments to the online platform.
 
 ## Groups configuration
-What you need to do is manage the asset's deployment remotely by flagging them as **addressables** and organizing inside the **"Addressables Groups"** window. 
+You can easily create addressable groups going to "**Reflectis**" on the top bar and then click on "**Configure and build Addressables**".
 
-To open the Addressables Groups window go to: *Window → Asset Management → Addressables → Groups*.
+![BuildWorld](/img/buildworld_1_2.png)
 
-The Addressables Groups window will show 2 options: **Built in data** (in gray) and **Default Local Group**.
-By clicking **"New"**, it will be possible to create new addressables groups. 
+In the panel below, click on "**Create missing groups**" to create "**Environments**" and "**Thumbnails**" groups.
 
-It's necessary to create these new groups:
-- **Environments** - It will contain the addressables of the scenes that need to be shared.
-- **Thumbnails** - It will contain the addressables of the thumbnails for each scene, that will be used as a new world's environment. 
+![AddressablesGroups](/img/addressablessetup_13.png)
 
-Click on the "**New**" button on the top left corner of the window, select “**Packed assets**” and a new manageable addressable group will be created and ready to be renamed.
+It’s also necessary to setup a specific **Player Version Override**, the name of the catalog that will contain the environment addressables. 
 
-![AddressablesGroups](/img/addressablessetup_1.png)
+It can easily be done from the addressables configurator in the designated space:
 
-It's necessary to change the options of the addressables groups **Default Local Group**, **Environment** and **Thumbnails**' inspector as follows:
-
-![AddressablesGroups](/img/addressablessetup_2.png)
-
-Finally, select the “**AddressableAssetData**” folder in the "Assets" folder of the project and select the “**AddressableAssetSettings**” scriptable object.
-
-![AddressablesGroups](/img/addressablessetup_3.png)
-
-Set the inspector of "**AddressableAssetSettings**" as follows:
-
-![AddressablesGroups](/img/addressablessetup_4.png)
-![AddressablesGroups](/img/addressablessetup_5.png)
-
-- Catalog → **Player Version Override**: Here is where the catalog’s name is set. It's mandatory that this name is **different** from any other catalog uploaded before or in the future. 
+![AddressablesGroups](/img/addressablessetup_14.png)
 
 :::danger[Warning]
 Don't use numbers or special characters in "**Player Version Override**" parameter.
@@ -44,7 +28,7 @@ Don't use numbers or special characters in "**Player Version Override**" paramet
 
 ## Profiles configuration
 
-To configure the profiles of addressables, you have to click on "**Reflectis**" on the top bar and then click on "**Configure and build Addressables**".
+To configure the profiles of addressables, must to go to "**Reflectis**" on the top bar and then click on "**Configure and build Addressables**".
 
 ![BuildWorld](/img/buildworld_1_2.png)
 

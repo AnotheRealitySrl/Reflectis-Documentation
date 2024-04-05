@@ -4,57 +4,29 @@ sidebar_position: 5
 
 # VR Mapping
 
-These nodes contain the information of the object referenced in the node’s name.
+This single node needs a specific setup to become usable. As the others, this node works only after click on "**Setup Visual Scripting Nodes**" under the "**Reflectis**" option in the menu bar. 
 
-## Get *CMUser* Node
+The last setup is to **add** to the scene the prefab called "**DefaultXRActionEnabler**", that you can find inside the **Reflectis SDK Creator Kit** package. 
 
-This Node contains the information about the **current player**.
+![Nodes](/img/vr-mapping1.png)
 
-:::tip[Note] 
-	Refer to the "**Expose CMUser**"(INSERIRE LINK) node to know which info you can access.
-:::
+![Nodes](/img/vr-mapping2.png)
 
-(INSERIRE IMG)
+## *Input Action Reference* Node
 
-## Get *CMEvent* Node
+This single node allows to reference **any button** mapped in both VR controllers to work as triggers for the events associated through visual scripting.
 
-This Node contains the information about the **current event**.
+![Nodes](/img/vr-mapping3.png)
 
-:::tip[Note] 
-	Refer to the "**Expose CMEvent**"(INSERIRE LINK) node to know which info you can access.
-:::
+The list of the **possible controller actions** referenceable is the following:
 
-(INSERIRE IMG)
-
-## Get *CMEnvironment* Node
-
-This Node contains the information about the **current environment**.
-
-:::tip[Note] 
-	Refer to the "**Expose CMEnvironment**"(INSERIRE LINK) node to know which info you can access.
-:::
-
-(INSERIRE IMG)
-
-## Get *Manipulable* Node
-
-This Node is used to reference the **manipulable component** of the GameObject referenced in the input. 
-
-(INSERIRE IMG)
-
-## Get *Generic Interactable* Node
-
-This Node is used to reference the **generic interactable component** of the GameObject indicated in the input. 
-
-(INSERIRE IMG)
-
-## Get *Contextual Menu Interactable* Node
-
-This Node is used to reference the **Contextual Menu component** of the GameObject indicated in the input. 
-
-(INSERIRE IMG)
-
-
-:::tip[Note] 
-	You can associate a "**Log Error**" output to each node. The output in the console will be a reference to the GameObject containing the desired information.
-:::
+| Left Controller | Right Controller |
+| --------------- | --------------- |
+| LeftController_PrimaryButton | RightController_PrimaryButton |
+| LeftController_SecondaryButton | RightController_SecondaryButton |
+| LeftController_GripButton | RightController_GripButton |
+| LeftController_TriggerButton | RightController_TriggerButton |
+| LeftController_AnalogicMove | RightController_AnalogicMove |
+| LeftController_AnalogicTouch | RightController_AnalogicTouch |
+| LeftController_AnalogicClick | RightController_AnalogicClick |
+| LeftController_MenuButton | RighController_MenuButton |

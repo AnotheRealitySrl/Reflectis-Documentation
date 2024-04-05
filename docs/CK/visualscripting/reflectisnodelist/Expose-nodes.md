@@ -4,57 +4,61 @@ sidebar_position: 2
 
 # Expose Nodes
 
-These nodes contain the information of the object referenced in the node’s name.
+These nodes will make it possible to reference specific information of different structures of the Reflectis platform.
 
-## Get *CMUser* Node
+## Expose *CMUser* Node
 
-This Node contains the information about the **current player**.
+![Nodes](/img/expose-nodes1.png)
 
-:::tip[Note] 
-	Refer to the "**Expose CMUser**"(INSERIRE LINK) node to know which info you can access.
-:::
+The output variables and their functionality are:
+- **ID**, user identification number
+- **Name**, username
+- **E Mail**, registration mail associated with the account
+- **Roles**, a list that contains the names of the roles attached to the user.
 
-(INSERIRE IMG)
+## Expose *CMEvent* Node
 
-## Get *CMEvent* Node
+![Nodes](/img/expose-nodes2.png)
 
-This Node contains the information about the **current event**.
+The output variables and their functionality are:
+- **ID**, event identification number
+- **Title**, the name of the event
+- **Description**, event description
+- **Start Date Time**, the time the event becomes available
+- **End Date Time**, the time the event deactivates
+- **Category ID**, identification number for the category associated with the event
+- **Category Name**, name of the category associated with the event
+- **Subcategory ID**, identification number for the subcategory associated with the event
+- **Subcategory Name**, name of the subcategory associated with the event
+- **Is Event Public**, checks if the event is public or not
+- **Is Event Static**, checks if the event is static or not.
 
-:::tip[Note] 
-	Refer to the "**Expose CMEvent**"(INSERIRE LINK) node to know which info you can access.
-:::
+## Expose *CMEnvironment* Node
 
-(INSERIRE IMG)
+![Nodes](/img/expose-nodes3.png)
 
-## Get *CMEnvironment* Node
+The output variables and their functionality are:
+- **ID**, environment identification number
+- **Name**, environment label
+- **Description**, environment description
+- **Addressable Key**, addressable name of the environment
+- **Catalog**, name of the catalog that contains the environment.
 
-This Node contains the information about the **current environment**.
+## Expose *Manipulable* Node
 
-:::tip[Note] 
-	Refer to the "**Expose CMEnvironment**"(INSERIRE LINK) node to know which info you can access.
-:::
+![Nodes](/img/expose-nodes5.png)
 
-(INSERIRE IMG)
+The output variables and their functionality are:
+- **Game Object Reference**, reference to the GameObject owning the generic interact from the input
+- **Interaction colliders**, list of the colliders referenced in the interactable placeholder
+- **Is Manipulated**, check if the object is being manipulated
+- **Manipulation Input**, reference to the method used to manipulate the object (VR hands, VR lasers, mouse).
 
-## Get *Manipulable* Node
+## Expose *Generic Interactable* Node
 
-This Node is used to reference the **manipulable component** of the GameObject referenced in the input. 
+![Nodes](/img/expose-nodes4.png)
 
-(INSERIRE IMG)
-
-## Get *Generic Interactable* Node
-
-This Node is used to reference the **generic interactable component** of the GameObject indicated in the input. 
-
-(INSERIRE IMG)
-
-## Get *Contextual Menu Interactable* Node
-
-This Node is used to reference the **Contextual Menu component** of the GameObject indicated in the input. 
-
-(INSERIRE IMG)
-
-
-:::tip[Note] 
-	You can associate a "**Log Error**" output to each node. The output in the console will be a reference to the GameObject containing the desired information.
-:::
+The output variables and their functionality are:
+- **Game Object Reference**, reference to the GameObject owning the generic interact from the input
+- **Interaction states**, reference in which state is the object between idle, selected, interacting and hovered
+- **Interaction colliders**, list of the colliders referenced in the interactable placeholder.
