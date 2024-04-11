@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Synchronization
+# Variables synchronization
 
-To **synchronize** behaviors and variables in multiplayer, we need to proceed with these steps in the graph editor:
+To **synchronize** variables in multiplayer, we need to proceed with these steps in the graph editor:
 
 - Click "**Edit Graph**" on the "**Script Machine**" component to open the **Graph editor** and start editing the nodes on the graph to obtain the desired behavior
 
@@ -12,7 +12,7 @@ To **synchronize** behaviors and variables in multiplayer, we need to proceed wi
 
 - When embedded to the object and placed on the scene, the visual scripted behavior will start as "**Not Networked**" 
 
-- To be able to network the behavior of the object to all the users, the **Synced Object** is needed. 
+- To be able to network the variable of the object to all the users, the **Synced Object** is needed. 
 Without it the interactions made with the graph editor will be visible only to the client and not the rest of the server.
 
 	![VisualScripting](/img/networkvs_1.png)
