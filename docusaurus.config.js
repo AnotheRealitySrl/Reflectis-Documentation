@@ -44,8 +44,8 @@ const config = {
           lastVersion: 'current',
           versions: {
             current: {
-                label: '2024.3',
-                path: '2024.3',
+                label: '2024.4',
+                path: '2024.4',
             },
           },
           // Please change this to your repo.
