@@ -73,13 +73,19 @@ const config = {
       // Replace with your project's social card
       image: 'img/LOGO_REFLECTIS_White.png',
       navbar: {
-        title: 'Reflectis',
+        title: 'Home',
         logo: {
           alt: 'Reflectis Logo',
           src: 'img/LOGO_REFLECTIS_Black.png',
           srcDark: 'img/LOGO_REFLECTIS_White.png'
         },
         items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'reflectisSidebar',
+            position: 'left',
+            label: 'Reflectis',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'creatorkitSidebar',
