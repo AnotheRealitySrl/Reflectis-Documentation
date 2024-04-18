@@ -56,7 +56,7 @@ The steps to be taken are:
   
   ![image](https://github.com/AnotheRealitySrl/Reflectis-Documentation/assets/11877743/d02f7408-840a-4d55-b7b6-b48a85ca06fd)
 
-- Enter the name of the **introduction document** of the guide (*with the specific path, if it is inside a folder*)
+- Enter the name of the **introduction document** of the guide or any other **single document**, not in a subsection (*with the specific path, if it is inside a folder*)
   
   ![image](https://github.com/AnotheRealitySrl/Reflectis-Documentation/assets/11877743/d2a775fa-79ae-474d-9bee-93f282f34450)
 
