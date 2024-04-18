@@ -8,7 +8,7 @@ To join **Reflectis**, just follow the steps depending on which platform you wan
 
 ## What you need
 
-1. **VR application**: Download and install the software ().
+1. **VR application**: Download and install the Reflectis application (*link available soon on AppLab*).
 	Reflectis is available on **Meta Quest 2**, **Meta Quest 3** and **Pico 4**.
 2.  **Web application**: Nothing to download! Click on [this](https://reflectis-demo-app.anothereality.io/) to register and access the web application. 
 
@@ -35,24 +35,24 @@ Once you click "**Save**", you can choose an avatar from **Ready Player Me**.
 
 [IMMAGINE]
 
-You can choose it from the default ones, or select it from your Ready Player Me account, click on “**Crea Avatar**”.
+You can choose it from the default ones, or select it from your Ready Player Me account, click on "**Crea Avatar**".
 
 [IMMAGINE]
 
 *You are now ready to access the virtual platform*!
 
-To learn the system of movement and interaction with the environment, you can consult this guide ([link] How to interact in the 3D world)
+To learn the system of movement and interaction with the environment, you can consult [this guide](../3dworld/intro).
 
 ## Accessing the virtual platform
 After successfully logging in you’ll be redirected to this landing page:
 
 [IMMAGINE]
 
-In this page you’ll be able to access the Reflectis Virtual platform in the following ways:
+In this page you'll be able to access the Reflectis Virtual platform in the following ways:
 - Entering the **Web application** by pressing the Web option on the left.
 - Pairing the VR headset with your account to access the virtual platform via **VR application**.
 
-To learn how to **pair your headset** check the [VR PAIRING] (*VR PAIRING) section.
+To learn how to **pair your headset** check the [VR Pairing](vrpairing) section.
 
 
 

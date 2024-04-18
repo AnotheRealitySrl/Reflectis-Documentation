@@ -20,7 +20,7 @@ In **VR** the interaction is as follows:
 - For **fixed dashboards**, the user can approach and point the *controller* to the content
 - For **portable dashboards**, the user can open the tablet and click with the *pointer* on the dashboard button, to open a panel with events.
 
-### Event creation
+## Event creation
 In order to create a **new event**, the user has to access the tablet, in the **Dashboard section**, and click on the "**Create Event**" button.
 He will have a panel available with these fields:
 - **Title**

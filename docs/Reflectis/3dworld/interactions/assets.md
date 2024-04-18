@@ -38,8 +38,17 @@ The colour is chosen from a **color palette** with all gradations.
 
 To change it, in **WebGL** one needs to select the object with the *right button* and click on the *color button*, while in **VR** one has to hold down the *trigger* to open the context menu and select the color button.
 
+:::tip[note]
+In order to obtain a 3d asset with **colour picker**, the mesh of the object must be organised in a hierarchy where the father is the container (without mesh) and the **first child** will be the part of the mesh that will be coloured.  
+:::
+
 ### Explosion
 **Exploding an object** means breaking it down into several parts, if the **3D model** provides for this.
+
+:::tip[note]
+In order to obtain an **explodable 3D asset**, the mesh of the object must be organised in a **hierarchy** where the parent is the container (without mesh) and the children are the parts of the mesh into which we want it to split during the explosion.
+All these sub-meshes **must be placed** at the same level in the hierarchy.
+:::
 
 To apply this property, in **WebGL** the user has to select the object with the *right mouse button* and click on the *explosion* icon.
 A **slider** will appear below the object to gradually **decompose** the object and a **drop-down box** to select whether the explosion is to start **radially**, on the **X, Y** or **Z axis**.

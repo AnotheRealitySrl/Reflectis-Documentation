@@ -36,6 +36,7 @@ const sidebars = {
             }
         ],
       },
+      'Reflectis/glossary',
   ],
 
   creatorkitSidebar: [

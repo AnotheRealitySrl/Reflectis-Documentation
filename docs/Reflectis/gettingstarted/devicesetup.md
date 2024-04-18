@@ -61,7 +61,7 @@ You have to select "**Allow**", so the SideQuest dot should've turned green.
 
 [IMMAGINE]
 
-## Step 04: Uninstall the apk’s old version
+## Step 04: Uninstall the apk's old version
 
 If you're trying to put an **already installed application** in the headset, it's recommended to **uninstall** the old version before installing the new one. 
 

@@ -19,9 +19,8 @@ Each user, through the Creator Kit offered by Reflectis, will be able to build h
 
 More info about **Creator Kit** [here](/docs/2024.3/CK/intro)!
 
-[DA CAMBIARE]
-- Are you a new creator? Read [Getting Started](gettingstarted/prerequisites)!
-- Looking for ready-to-use components? Explore our list of [drag-and-drop components](creatorkitcomponents/How-to-add-a-component).
-- Do you want to use Visual Scripting? Check out our custom nodes of [Visual Scripting](visualscripting/configuration).
+- Are you a new user? Read [Getting Started](gettingstarted/firststeps)!
+- Looking for a specific tutorial? Explore our sections list of [Reflectis 3D worlds](3dworld/intro).
+- Do you not know any specific terms in this guide? Check our [Glossary](glossary).
 
 _Enjoy envisioning new possible worlds and interactions for the different player bases at your disposal!_
