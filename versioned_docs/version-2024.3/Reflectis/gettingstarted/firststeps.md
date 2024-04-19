@@ -44,7 +44,7 @@ You can choose it from the default ones, or select it from your Ready Player Me 
 To learn the system of movement and interaction with the environment, you can consult [this guide](../3dworld/intro).
 
 ## Accessing the virtual platform
-After successfully logging in you'll be redirected to this landing page:
+After successfully logging in you’ll be redirected to this landing page:
 
 ![Firststeps](/img/r_firststeps_6.png)
 
