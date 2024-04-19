@@ -65,3 +65,19 @@ This Node allows to differentiate actions for the different platforms.
 This Node allows to activate the tutorial panel.
 
 ![Nodes](/img/flow-nodes10.png)
+
+## Reflectis scene nodes
+
+### Enable *Other Players* Node
+
+This Node allows to enable or disable the other’s players character mesh when triggering an event.
+
+![Nodes](/img/scenenodes_1.png)
+
+### Enable *Spawned Objects* Node
+
+This Node allows to enable or disable the other’s players spawned objects when triggering an event.
+
+![Nodes](/img/scenenodes_2.png)
+
+

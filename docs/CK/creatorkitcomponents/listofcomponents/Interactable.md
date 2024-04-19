@@ -22,7 +22,14 @@ To configure the content shown in the **Interactable Placeholder**, you can mana
 	- *Everything*, any scripted action can be attached
 	- *Generic Interactable*, for actions such as **selection**, **interaction** and **hovering**
 	- *Manipulable*, for actions such as **translation**, **rotation** and **scale**
-	- *Contextual Menu Interactable*, for **additional features** in 3D objects or multimedia.
+	- *Contextual Menu Interactable*, for adding **colour picker** and **non-proportional scaling** features in 3D objects (*the only currently active*).
+
+	
+	:::tip[Note]
+	To associate these features with an **object in the environment**, it is necessary to activate the "*Manipulable*" mode, as well as the "*Contextual Menu Interactable*" mode.
+	:::
+	
+	![interactable](/img/interactablePlaceholder1.png) 
 
 - **Interaction Script Machine** is a parameter where you have to reference the "Script maachine" relating to the object.
 

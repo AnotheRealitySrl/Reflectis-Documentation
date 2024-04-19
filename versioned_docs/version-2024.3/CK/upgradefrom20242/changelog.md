@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# What has changed
+# Changelog
 
 From the 2024.2 Creator Kit version, the changes in this version are as follows:
 - **Adding addressables Configurator**, the addressables structure setup becomes much easier and is divided by steps.
