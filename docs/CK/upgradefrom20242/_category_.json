@@ -1,0 +1,8 @@
+{
+  "label": "Upgrade from 2024 2",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Read the changes from the previous version and how to upgrade it"
+  }
+}
