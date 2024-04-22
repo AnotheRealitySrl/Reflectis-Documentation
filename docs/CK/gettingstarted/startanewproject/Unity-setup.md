@@ -47,10 +47,10 @@ If you install the modules **later**, you need to **build the addressables again
 9. **Import the packages** from these links into the scene using the package manager, selecting the "**Add package from git URL**" option:
 					
 	- https://github.com/AnotheRealitySrl/Reflectis-SDK.git#v6.0.0
-	- https://github.com/AnotheRealitySrl/Reflectis-SDK-CreatorKit.git#v4.0.0.
+	- https://github.com/AnotheRealitySrl/Reflectis-SDK-CreatorKit.git#v3.1.0.
 	
 :::danger[Warning]								
-	The Reflectis 2024.4 works **only** with packages v6.0.0 (SDK) and v4.0.0 (SDK-CreatorKit).
+	The Reflectis 2024.4 works **only** with packages v6.0.0 (SDK) and v3.1.0 (SDK-CreatorKit).
 :::
 
 Now the project has all the necessary packages to start using the **Reflectis SDK**. 
