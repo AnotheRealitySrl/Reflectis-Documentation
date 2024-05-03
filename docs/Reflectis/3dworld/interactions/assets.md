@@ -62,3 +62,7 @@ To adjust this property, in **WebGL** the user needs to select the object with t
 Handles will appear on **each face** of the object, and by holding down on one of these with the *left button*, one can stretch or shrink the relative face.
 
 Similarly in **VR**, the user has to hold the trigger on the object to open the contextual menu and select the resize icon.
+
+:::tip[note]
+Non proportional scaling option can cause unexpected behaviours if associated with any collider that cannot be scaled in non proportional ways (es. Sphere Collider, Capsule Collider ...) 
+:::

@@ -25,3 +25,7 @@ The **execution** of all the flows started from this node will be awaited before
 This node will trigger when the **scene setup is completed** and the loading panel fadeout to the scene has been completed.
 
 ![Nodes](/img/setupcompleted.png)
+
+:::danger[Warning]
+Use these nodes insted of the Unity's "On Start" node if you need to instantiate objects from the environment at the start of the event. Not using these nodes will have unwanted results, like objects spawned in the wrong event.
+:::

@@ -7,9 +7,8 @@ sidebar_position: 1
 From the 2024.3 Reflectis guide version, the changes in this version are as follows:
 
 - **Adding Multiworld System**, that add a new layer of organization inside the tenants.
-In this version it is possible to create multiple organizations inside the same Tenant.
+In this version it is possible to create multiple organizations inside the same Tenant. This can only be done by the adminisrators.
 
-	For **more information**, check out the section [INSERIRE NUOVA SEZIONE].
 
 - **Adding new avatar functionalities**, new changes about look and management of the avatar.
 	In detail we have added:
@@ -17,5 +16,5 @@ In this version it is possible to create multiple organizations inside the same 
 	- *Username*, currently the username shows a # symbol followed by an unique identity code.
 	- *Speaker*, a new feature where the user voice can be heard across the whole environmment, ignoring distances between players.
 	
-	For **more information**, check out the section [INSERIRE NUOVA SEZIONE].
-
+	For **more information**, check out the section [Communication](3dworld/interactions/communication) and [First Steps](gettingstarted/firststeps).
+	

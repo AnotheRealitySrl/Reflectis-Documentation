@@ -20,3 +20,6 @@ Additionally, among the text chat channels, there will be an "**Announcements**"
 Users will be able to communicate with each other through **animations** (full body and WebGL only) and **reactions** (2D images displayed above the avatar, both WebGL and VR) that can be activated with *quick choices* (shortcuts or in-game menu).
 
 Animations and reactions **won’t have** physics or logic that interacts with the environment or other users.
+
+## Speaker mode
+Users with a specific permit will be able to activate the speaker mode through user interface. By activating the voice chat a new icon will become available. by clicking it the voice chat will change from spatialized to global so everybody in the event can hear you.
