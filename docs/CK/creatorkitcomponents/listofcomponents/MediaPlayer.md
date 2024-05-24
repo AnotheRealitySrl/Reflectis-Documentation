@@ -4,36 +4,57 @@ sidebar_position: 5
 
 # Media Player
 
-```Media Player Controller Placeholder``` + ```Media Container Placeholder```
+```BigScreen``` Prefab
 
-Script components to attach to a **canvas** and a child to make it an available **big screen**.
+Prefab to be used as a destination point for your media if you want to put them on a **big screen**.
 
-![ComponentList](/img/componentlist_7.png) 
+![ComponentList](/img/componentlist_xx_bigscreenprefab.png)
 
-The preferred hierarchy starts with an **empty** object named "**BigScreen**"	. 
-The empty object must have a "**Canvas**" as a child (in world space). 
-The canvas must have attached the ```Media Player Controller Placeholder``` component, that manages the ability of big screens to **receive media files** from the users and **show them**.
 
-The component must be structured as follows:
+## Screen settings
 
-![ComponentList](/img/componentlist_8.png) 
+You can customize your ```BigScreen``` by editing its info in the ```BigScreenPlaceholder``` component.
 
-In the "**Addressable Key**" value write "**BigScreen**".
+- **Screen Name**: The name of the screen. It will appear when a user clicks on the "Send to Big Screen" button on its media player, so he/she can select which ```BigScreen``` to target. Make it human-readable!
+- **Screen Width**: The X scale of the monitor. Use this value instead of changing the scale of the ```BigScreen```!
+- **Screen Height**: The Y scale of the monitor. Use this value instead of changing the scale of the ```BigScreen```!
+- **Camera Pan Distance**: The distance of the camera from the monitor in "pan" phase.
 
-Attach an *empty* child to the canvas and call it "**Media Player**" (it automatically becomes a rect transform). 
-Attach to this child the ```Media Container Placeholder``` and set it as follows:
+:::danger[Warning]
+Be sure to follow these tips!
+- Don't change the scale of the Transform, use Screen Width and Screen Height instead. Be sure that the scale of the ```BigScreen``` is **(1, 1, 1)**!
+- Don't remove the **Is Networked** flag!
+:::
 
-![ComponentList](/img/componentlist_9.png)
 
-In the "**Addressable Key**" valute it’s possible to write down 3 options:
+## Default Media
 
-- ImagePlayer
-- VideoPlayer
-- PresentationPlayer
+You can use the ```BigScreen``` to place a predefined element inside your environment!
 
-These options will decide which **type of files** the big screen can manage.
+To do this, flag the **Default Media** checkbox.
 
-Finally, this layer will become the visible **big screen**, so is from this layer that it’s possible to manage the **size** and the **position** of i	t.
-It’s possible to have all **3 options active** at the same time by creating a child for each option.
+![ComponentList](/img/componentlist_xx_bigscreenprefab_defaultmedia.png)
 
-![ComponentList](/img/componentlist_10.png)
+You can manage different kinds of media, by selecting the **Media Type** you desire:
+- **None**
+- **Video** _(default)_
+- **Documents** (PDF only!)
+- **Images**
+
+:::danger[Warning]
+Don't choose **Asset 3D** from the list! It won't work!
+:::
+
+Once the **Media Type** is chosen, then you can put the **Default Url**.
+The URL should be complete and publicly accessed.
+
+:::tip[Note]
+To have a better experience with videos, they should be hosted by a server that is set up to allow chunk downloads, so the videos can be seeked at runtime.
+:::
+
+You can also choose to lock the ```BigScreen``` by selecting the **Is Locked** checkbox.
+By doing this, you prevent other media to be sent on it and replace the default content.
+
+:::tip[Note]
+Locked Big Screens won't appear in the list of available Big Screens when you try to send a media to one of them.
+:::
