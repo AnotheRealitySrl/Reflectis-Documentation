@@ -10,4 +10,4 @@ By clicking the button located on the left side of the file's name, the file **c
 
 Users also have the option to **search for** files based on folders or by specifying the type of asset contained within the file. 
 
-All assets listed here have been previously uploaded in the [**Files**](/docs/Backoffice/Files/Description.md) section of the backoffice and can also be managed from that section.
+All assets listed here have been previously uploaded in the [**Files**](/docs/Backoffice/Files/Description) section of the backoffice and can also be managed from that section.

@@ -13,4 +13,4 @@ Any new environment introduced in this section becomes accessible for use when c
 
 # Uploading
 
-Creating a new environment requires the utilization of the SDK creation kit provided alongside the application. For detailed instructions on downloading, installing, and using the SDK, please refer to the [Reflectis Creator Kit](/docs/CK/intro.md).
+Creating a new environment requires the utilization of the SDK creation kit provided alongside the application. For detailed instructions on downloading, installing, and using the SDK, please refer to the [Reflectis Creator Kit](/docs/CK/intro).
