@@ -43,6 +43,6 @@ When the user chooses to **spawn a whiteboard**, it appears in front of him.
 
 The whiteboard can be grabbed from the **white side handles**, through the grab of one of the *controllers* in **VR**, or with the *left-click* on one of the handles, in **WebGL**. 
 
-To change the position, rotation or scale, just follow the **same controls** in the [Assets](../interactions/assets) section.
+To change the position, rotation or scale, just follow the **same controls** as in the [Assets](../interactions/assets) section.
 
 **Multiple whiteboards** can be called into the environment at the same time and can be **deleted** by interacting with the *X* button in the upper right corner of the board.

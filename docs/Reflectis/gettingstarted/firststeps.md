@@ -10,11 +10,11 @@ To join **Reflectis**, just follow the steps depending on which platform you wan
 
 1. **VR application**: Download and install the Reflectis application (*link available soon on AppLab*).
 	Reflectis is available on **Meta Quest 2**, **Meta Quest 3** and **Pico 4**.
-2.  **Web application**: Nothing to download! Click on [this](https://reflectis-demo-app.anothereality.io/) to register and access the web application. 
+2.  **Web application**: Nothing to download! Click on [this](https://app.reflectis.io/) to register and access the web application. 
 
 ## Registration
 VR and WebGL users **must register** to access both applications. 
-The registration portal is accessible through the [landing page](https://reflectis-demo-app.anothereality.io/).
+The registration portal is accessible through the [landing page](https://app.reflectis.io/).
 
 ![Firststeps](/img/r_firststeps_1.png)
 
@@ -43,8 +43,18 @@ You can choose it from the default ones, or select it from your Ready Player Me 
 
 To learn the system of movement and interaction with the environment, you can consult [this guide](../3dworld/intro).
 
-## Accessing the virtual platform
-After successfully logging in you'll be redirected to this landing page:
+## Choosing the World
+After successfully logging in you'll be redirected to the selection of the World you want to enter inside the Tenant. The list is comprised of only the Worlds where the user has been granted access to.
+
+![Firststeps](/img/platformSelection.png)
+
+If the user has access only to one world in the Tenant, he'll be instantly redirected to that world's landing page instead.
+
+The same page structure is similar to the world's backoffice page selection, as shown in the [Backoffice Selection](docs/Backoffice/BackOfficeSelection.md) section of the documentation.
+
+## Accessing the World's Landing Page
+
+After the world has been selected, the user will be redirected to its landing page:
 
 ![Firststeps](/img/r_firststeps_6.png)
 

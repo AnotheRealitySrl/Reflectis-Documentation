@@ -22,4 +22,4 @@ For more details, see [Addressable setup](./startanewproject/Addressable-setup)
 
 4. The next step is to **setup the Unity scene**, adding the necessary components for operation. For more details, see [Scene setup](./startanewproject/Scene-setup)
 
-5. Finally, [here](./startanewproject/Graphic-guidelines) are some guidelines for managing the environment **graphically**, to optimize the scene and avoid possible issues.
+5. Finally, [here](https://reflectis.io/docs/2024.5/category/graphic-guidelines) are some guidelines for managing the environment **graphically**, to optimize the scene and avoid possible issues.

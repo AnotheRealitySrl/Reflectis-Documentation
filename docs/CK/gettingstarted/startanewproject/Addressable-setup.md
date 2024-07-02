@@ -49,7 +49,7 @@ selection list.
 	Don't use spaces or special characters in "**Addressables**" parameter.
 	:::
 
-	![AddressablesGroups](/img/addressablessetup_8.png)
+       ![AddressablesGroups](/img/addressablessetup_8.png)
 
 - **Thumbnails addressable**
 
@@ -72,3 +72,9 @@ Specific elements needed to build the online environment are collected inside **
 ![AddressablesGroups](/img/addressablessetup_11.png)
 
 The configuration of addressables is complete now, and you can proceed to **scene setup**!
+
+## Add a localization file to the environment
+
+From the 2024.5 version it's possible to add a .CSV file to the addressables that will allow every written element of the environment to switch to the language set by the user (Italian and English for now).
+
+![AddressablesGroups](/img/csvSetup.png)

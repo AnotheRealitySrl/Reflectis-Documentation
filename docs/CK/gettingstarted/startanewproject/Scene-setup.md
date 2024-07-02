@@ -36,3 +36,10 @@ Then other "Camera" components can coexist, but they **must have a different tag
 
 What to prevent it from interfering with the controls used within the standard Reflectis.
 :::
+
+## Localization
+
+Creators can add a localization file that allows all the Text elements in the environment to switch between the languages of the Reflectis Platform. 
+
+Check the 
+
