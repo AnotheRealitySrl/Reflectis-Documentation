@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
 ---
-![bo_events](/img/bo_events.png)
-
 The "**Events**" serve as the primary focal point within the application. An event is a **distinctive 3D environment** featuring specific interactions and mechanics, accessible to users for a designated time period through the application.
+
+![bo_events](/img/bo_events.png)
 
 The options displayed for events in the event page can vary depending on how the events were initially configured.
 

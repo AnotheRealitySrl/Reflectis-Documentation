@@ -1,10 +1,9 @@
 ---
 sidebar_position: 2
 ---
+From this page, users have the ability to designate which files **will be accessible** to participants upon entering a specific event.
 
 ![bo_events](/img/bo_events12.png)
-
-From this page, users have the ability to designate which files **will be accessible** to participants upon entering a specific event.
 
 By clicking the button located on the left side of the file's name, the file **can be shared** with the event.
 

@@ -4,10 +4,15 @@ sidebar_position: 1
 
 # Changelog
 
-The main platform changes from the 2024.4 Reflectis version are as follows:
+The main platform changes from the 2024.5 Reflectis version are as follows:
 
-- **Adding Multiworld System**, that add a new layer of organization inside the tenants.
-The permits and landing page visualizations have been changed following the new distinction between Tenants and Worlds.
+- **User List has been moved**
+
+The user list has been moved inside the text chat button to group the functionalities together and improve the user experience.
+
+- **Text Chat upgrade**
+
+The Text chat has been upgraded to the new UI style and now contains the user list.
 	
-	For **more information**, check out the [First Steps](docs/Reflectis/gettingstarted/firststeps.md) section.
+	For **more information**, check out the [communication](docs/Reflectis/3dworld/interactions/communication.md#text-chat) section.
 	

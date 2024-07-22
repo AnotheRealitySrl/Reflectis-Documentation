@@ -22,15 +22,16 @@ It’s important that the parameters "**Automatic Setup**" and "**Is Networked**
 The "**Ownership Request Type**" parameter determines what type of request will be made on that object:
 - "**Request**" - where you request ownership of the object
 - "**Takeover**" - where you take ownership regardless, automatically.
+- "**Fixed**" - where the ownership is predetermined and cannot be changed.
 
 Moreover, you have to tick the "**Sync Transform**" parameter, if it’s necessary for the position, rotation and scale information of the object, to which the script is attached, to be **shared with the server** and synchronized with the same object, displayed by other users.
 
 ## How to add variables
 
-The "**Add Synced Variables**" button is used to open a "**Variables**" script, where to add the variables to be used for the development of online mechanics. 
-Variables can also be **added** in the node graph.
+When at least one variable is added to the variables list, the "**Add Synced Variables**" button will become available. When pressed, the variables present in the list will appear under the "List of variables" field.  
+From that list it's possible to assign the 'Synced' and 'Not Synced' values to the variables, depending on the necessity. 
 
-Once the script for adding variables has been entered, you need to click on the "**+**" button and to assign a name, type and value to each one.
+Variables can be also created from the "**Variables**" field in the inspector. You need to click on the "**+**" button to generate a new variable and then assign a name, type and value to each one.
 
 ![VisualScripting](/img/networkvs_2.png)
 
@@ -45,5 +46,5 @@ There are **6 types of variables** that can be synchronized:
 ![VisualScripting](/img/networkvs_3.png)
 
 :::danger[Warning]
-It’s important that after adding the variables, you press on the "**Not synced**" button next to each individual variable, if you want to **synchronize** it, so that it’s seen updated in multiplayer.
+It’s important that after adding the variables, you press on the "**Not synced**" button next to each individual variable to change it to "**synced**", if you want to **synchronize** it, so that it’s seen updated in multiplayer.
 :::

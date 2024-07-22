@@ -1,10 +1,11 @@
 ---
 sidebar_position: 1
 ---
+On this page, users are required to provide vital information pertaining to the events.
 
 ![bo_events](/img/bo_events9.png)
 
-On this page, users are required to provide vital information pertaining to the events, including:
+The information pneeded includes:
 
 - Title
 - Start and end times

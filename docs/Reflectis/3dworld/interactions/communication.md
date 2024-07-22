@@ -16,6 +16,10 @@ As for the **text chat**, it will be organized into **channels** (general, curre
 A user can send a **private message** directly to another user by clicking on their name from the user list.
 Additionally, among the text chat channels, there will be an "**Announcements**" channel where the staff can post **real-time communications**.
 
+From the text chat is possible to open the **Online user list**, from which you will be able to mute/kick a user in the same room as you (if the role allows it), to look at his profile and to open a private chat. 
+
+![UserList](/img/UserList.png)
+
 ## Animations and reactions
 Users will be able to communicate with each other through **animations** (full body and WebGL only) and **reactions** (2D images displayed above the avatar, both WebGL and VR) that can be activated with *quick choices* (shortcuts or in-game menu).
 

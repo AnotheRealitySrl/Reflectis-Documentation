@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 # Description
-![bo_files](/img/bo_files.png)
-
 In the "**Files**" section, users have the capability to configure which **assets** are available for sharing among all application users. They can **organize assets** more efficiently by creating folders with distinct names to group them together.
+
+![bo_files](/img/bo_files.png)
 
 ## Create a folder
 To **create a folder**, users should click on the **folder icon** positioned at the top center of the page. A side panel will appear, allowing the user to assign a **name** to the new folder. 
