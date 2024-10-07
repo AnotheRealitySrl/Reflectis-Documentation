@@ -1,0 +1,8 @@
+{
+    "label": "Files",
+    "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "How to upload and manage files from the Backoffice."
+  }
+}
